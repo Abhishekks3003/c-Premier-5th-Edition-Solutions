@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+int a,b;//Declaring 2 int for showing values b/w them
+scanf("%d %d",&a,&b);//reading inputs
+while(a<=b) //condition like 1<5
+{
+    printf("%d ",a); //1st print (1) then 2,3,4,5
+      a++;//it will increase value of 'a' every time until a<b.
+}
+}
